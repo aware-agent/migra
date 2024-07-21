@@ -13,7 +13,7 @@ homepage = "https://databaseci.com/docs/migra"
 python = "^3.11"
 sqlbag = "*"
 six = "*"
-schemainspect = { path = '/code/aware_database/utils/schemainspect', develop = true }
+schemainspect = { path = '/code/aware_database/ext/schemainspect', develop = true }
 psycopg2-binary = { version="*", optional = true }
 
 [tool.poetry.dev-dependencies]
